@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Donate - Camara Education</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  
+  <header>
+    <div class="container">
+      <nav>
+        <div class="logo">
+          <img src="https://www.colleges.co.ke/build/assets/images/colleges/default.png" alt="Camara Education Logo">
+          <div class="logo-text">Camara Education</div>
+        </div>
+        <button class="mobile-menu-btn">
+          <i class="fas fa-bars"></i>
+        </button>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="activities.html">Activities</a></li>
+          <li class="dropdown">
+            <a href="portfolio.html">Portfolio</a>
+            <div class="dropdown-content">
+              <a href="ongoing-projects.html">Ongoing Projects</a>
+              <a href="past-projects.html">Past Projects</a>
+            </div>
+          </li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="donate.html">Donate</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  
+  <section class="hero-banner fade-in-up" style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.pexels.com/photos/6646918/pexels-photo-6646918.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');">
+    <div class="container">
+      <div class="hero-content">
+        <h1>Support Our Mission</h1>
+        <p>Your donation helps us transform education through technology, creating opportunities for children across Africa and Ireland.</p>
+      </div>
+    </div>
+  </section>
+
+   
+  <div class="main-content">
+    <div class="container">
+      
+      <div class="image-row">
+        <div class="image-box">
+          <img src="https://images.pexels.com/photos/8364246/pexels-photo-8364246.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Students Learning">
+        </div>
+        <div class="image-box">
+          <img src="https://images.pexels.com/photos/8364248/pexels-photo-8364248.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Teacher Training">
+        </div>
+      </div>
+
+       
+      <div class="section fade-in-up">
+        <h2>Your Impact</h2>
+        <p>Your donation has a real impact on the lives of children and teachers in underserved communities. Here's what your support can provide:</p>
+        
+        <div class="donation-options">
+          <div class="donation-card">
+            <h3>€25</h3>
+            <div class="donation-amount">€25</div>
+            <p>Provides educational software for one school, benefiting hundreds of students.</p>
+            <a href="#donate-form" class="btn">Donate €25</a>
+          </div>
+          
+          <div class="donation-card">
+            <h3>€50</h3>
+            <div class="donation-amount">€50</div>
+            <p>Trains one teacher in ICT skills, impacting the education of 30+ students.</p>
+            <a href="#donate-form" class="btn">Donate €50</a>
+          </div>
+          
+          <div class="donation-card">
+            <h3>€100</h3>
+            <div class="donation-amount">€100</div>
+            <p>Provides a refurbished computer for a school, giving students access to digital learning.</p>
+            <a href="#donate-form" class="btn">Donate €100</a>
+          </div>
+          
+          <div class="donation-card">
+            <h3>€250</h3>
+            <div class="donation-amount">€250</div>
+            <p>Equips a classroom with learning resources and educational content.</p>
+            <a href="#donate-form" class="btn">Donate €250</a>
+          </div>
+          
+          <div class="donation-card">
+            <h3>€500</h3>
+            <div class="donation-amount">€500</div>
+            <p>Provides a comprehensive teacher training program for a school.</p>
+            <a href="#donate-form" class="btn">Donate €500</a>
+          </div>
+          
+          <div class="donation-card">
+            <h3>€1000</h3>
+            <div class="donation-amount">€1000</div>
+            <p>Sets up a complete digital learning center in a school, transforming education for hundreds of students.</p>
+            <a href="#donate-form" class="btn">Donate €1000</a>
+          </div>
+        </div>
+      </div>
+
+       
+      <div id="donate-form" class="section fade-in-up">
+        <h2>Make a Donation</h2>
+        <p>Please select an amount or enter a custom amount to support our work.</p>
+        
+        <div class="custom-donation">
+          <h3>Choose an Amount</h3>
+          <div class="amount-inputs">
+            <input type="radio" id="amount25" name="amount" value="25" class="amount-input">
+            <label for="amount25" class="amount-label">€25</label>
+            
+            <input type="radio" id="amount50" name="amount" value="50" class="amount-input">
+            <label for="amount50" class="amount-label">€50</label>
+            
+            <input type="radio" id="amount100" name="amount" value="100" class="amount-input">
+            <label for="amount100" class="amount-label">€100</label>
+            
+            <input type="radio" id="amount250" name="amount" value="250" class="amount-input">
+            <label for="amount250" class="amount-label">€250</label>
+            
+            <input type="radio" id="amount500" name="amount" value="500" class="amount-input">
+            <label for="amount500" class="amount-label">€500</label>
+          </div>
+          
+          <h3>Or Enter a Custom Amount</h3>
+          <div class="custom-amount">
+            <div class="currency-prefix">€</div>
+            <input type="number" min="1" step="1" placeholder="Enter amount">
+          </div>
+          
+          <h3>Donation Frequency</h3>
+          <div class="amount-inputs">
+            <input type="radio" id="one-time" name="frequency" value="one-time" class="amount-input" checked>
+            <label for="one-time" class="amount-label">One-Time</label>
+            
+            <input type="radio" id="monthly" name="frequency" value="monthly" class="amount-input">
+            <label for="monthly" class="amount-label">Monthly</label>
+            
+            <input type="radio" id="quarterly" name="frequency" value="quarterly" class="amount-input">
+            <label for="quarterly" class="amount-label">Quarterly</label>
+            
+            <input type="radio" id="annually" name="frequency" value="annually" class="amount-input">
+            <label for="annually" class="amount-label">Annually</label>
+          </div>
+          
+          <h3>Personal Information</h3>
+          <form action="#" method="post">
+            <div class="form-group">
+              <label for="donor-name">Name *</label>
+              <input type="text" id="donor-name" name="donor-name" class="form-control" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="donor-email">Email *</label>
+              <input type="email" id="donor-email" name="donor-email" class="form-control" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="donor-phone">Phone</label>
+              <input type="tel" id="donor-phone" name="donor-phone" class="form-control">
+            </div>
+            
+            <div class="form-group">
+              <button type="submit" class="btn">Donate Now</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+    
+      <div class="content-row">
+        <div class="content-box">
+          <h2>Other Ways to Give</h2>
+          <p>There are many ways to support Camara Education beyond monetary donations:</p>
+          
+          <h3>Donate Computer Equipment</h3>
+          <p>We accept donations of computers, laptops, tablets, and other hardware. Your donated equipment will be refurbished and used in schools across Africa and Ireland.</p>
+          
+          <h3>Corporate Partnerships</h3>
+          <p>Partner with us to make a significant impact on education globally. We offer various partnership opportunities, from project funding to employee engagement programs.</p>
+          
+          <h3>Volunteer</h3>
+          <p>Share your skills and expertise with our team and beneficiaries. We offer volunteering opportunities in technical support, teaching, mentoring, and more.</p>
+          
+          <h3>Legacy Giving</h3>
+          <p>Leave a lasting legacy by including Camara Education in your will. Your gift will continue to transform education for generations to come.</p>
+          
+          <a href="contact.html" class="btn">Contact Us</a>
+        </div>
+        <div class="content-box content-box-image">
+          <div>
+            <h2>Your Donation at Work</h2>
+            <p>Every donation to Camara Education makes a real difference in the lives of children and teachers. Here's how your support is making an impact:</p>
+            <ul>
+              <li>Over 3.5 million children reached with improved education</li>
+              <li>More than 30,000 teachers trained in ICT skills</li>
+              <li>150,000+ computers provided to schools</li>
+              <li>10,000+ eLearning centers established</li>
+              <li>30,000+ tons of e-waste saved from landfills</li>
+            </ul>
+            <p>"Thanks to the computer lab set up by Camara Education, I can now access information and resources that I never had before. It has opened up a whole new world of learning for me." - Student, Kenya</p>
+          </div>
+          <img src="https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Impact Story">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <footer>
+    <div class="container">
+      <div class="footer-container">
+        <div class="footer-section">
+          <h3>Address</h3>
+          <p>Camara Education<br>
+          Chapelizod Industrial Estate<br>
+          Dublin, D20 A603<br>
+          Ireland</p>
+          <p>Email: info@camara.org<br>
+          Phone: +353 1 652 2668</p>
+        </div>
+        <div class="footer-section">
+          <h3>Social Media</h3>
+          <p>Follow us for the latest updates on our projects and activities.</p>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>&copy; 2025 Camara Education. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
