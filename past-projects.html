@@ -17,7 +17,7 @@
           <img src="https://www.colleges.co.ke/build/assets/images/colleges/default.png" alt="Camara Education Logo">
           <div class="logo-text">Camara Education</div>
         </div>
-        <button class="mobile-menu-btn">
+        <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
           <i class="fas fa-bars"></i>
         </button>
         <ul class="nav-links">
@@ -212,5 +212,11 @@
       </div>
     </div>
   </footer>
+   <script>
+    function toggleMobileMenu() {
+      const navLinks = document.getElementById('nav-links');
+      navLinks.classList.toggle('active');
+    }
+  </script>
 </body>
 </html>
