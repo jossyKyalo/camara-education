@@ -226,7 +226,7 @@ nav {
 }
  
 .hero-banner {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.pexels.com/photos/7944096/pexels-photo-7944096.jpeg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./images/backgroundImage.png');
   background-size: cover;
   background-position: center;
   color: var(--light-text);
